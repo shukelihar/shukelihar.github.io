@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+/* fonts */
+@font-face {
+    font-family: Oswald;
+    src: url(/fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+/* Main */
+#main {
+    max-width: 1920px;
+    min-height: 740px;
+    background-image: url(/img/main/Rectangle.png) ;
+    background-repeat: no-repeat;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.main-logo img {
+    max-width: 60px; 
+    padding-top: 20px;       
+}
+.main-menu {
+    max-width: 60px;
+    padding-top: 30px;
+}
+.main-descr {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-descr h1 {
+    margin-top: 192px;
+    padding-bottom: 30px;
+    max-width: 734px;
+    font-family: 'Oswald', sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    /* White */
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.main-descr p {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+/* 80336658677 */
